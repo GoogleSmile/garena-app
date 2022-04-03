@@ -17,7 +17,6 @@ function App() {
       }
     };
     handle();
-
     window.addEventListener(
       'onorientationchange' in window ? 'orientationchange' : 'resize',
       handle,
